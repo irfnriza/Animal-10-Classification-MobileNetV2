@@ -1,0 +1,29 @@
+{
+  "model_info": {
+    "base_model": "MobileNetV2",
+    "input_shape": [
+      224,
+      224,
+      3
+    ],
+    "num_classes": 10,
+    "preprocessing": "Rescale 1/255"
+  },
+  "class_labels": {
+    "0": "cane",
+    "1": "cavallo",
+    "2": "elefante",
+    "3": "farfalla",
+    "4": "gallina",
+    "5": "gatto",
+    "6": "mucca",
+    "7": "pecora",
+    "8": "ragno",
+    "9": "scoiattolo"
+  },
+  "exported_formats": {
+    "saved_model": "saved_model",
+    "tflite": "tflite/model.tflite",
+    "tfjs": "tfjs_model"
+  }
+}
